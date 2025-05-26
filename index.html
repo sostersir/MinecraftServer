@@ -242,7 +242,7 @@
             <div class="card">
                 <h2>Modpack Info</h2>
                 <p class="highlight">Mods are required to join the server!</p>
-                <p>We're running a custom modpack <span class="highlight">click import and use the code "_i7AX3Ka"</span> on CurseForge.</p>
+                <p>We are running Cobblemon Sunstone modpack, click this link to install to curseforge: <a href="https://www.curseforge.com/minecraft/modpacks/cobblemon-sunstone/install/6262103" target="_blank">Install Modpack</a>.</p>
                 <p>Whitelist-only server. For help, contact: sostersir OR 2212212212212212212212212 in chat.</p>
                 <p>Previous server players are already whitelisted.</p>
             </div>
@@ -253,9 +253,7 @@
                     <li>Download standalone CurseForge from <a href="https://www.curseforge.com/download/app" target="_blank">here</a>.</li>
                     <li>Open CurseForge, select Minecraft, and choose standard modding folder setup.</li>
                     <li>Click Import inside the app and type the code: <span class="highlight">"_i7AX3Ka"</span></li>
-		    <li>Download this music pack and put it inside the resource folder: <a href="https://www.dropbox.com/scl/fi/ygdq9aihy5x10r5kzoo1q/Cobblemon-Johto-1.2-Music-Pack.zip?rlkey=h0e51k2oa7cbsemwq0hbxt3kp&st=3a4e87k4&dl=1" target="_blank">Cobblemon-Johto-1.2-Music-Pack.zip</a></li>
                     <li>In "My Modpacks", right-click the pack, select profile options, uncheck "Use System Memory Settings", and allocate 8GB (12GB if you can).</li>
-                    <li>Optional: For voice chat, <a href="https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/download/5907384" target="_blank">download this mod</a> and add it to the pack folder.</li>
                 </ol>
             </div>
         </div>
@@ -274,7 +272,7 @@
 
         async function fetchPlayerData() {
             try {
-                const response = await fetch('https://api.mcsrvstat.us/3/mc.cobble.deez.casa');
+                const response = await fetch('https://api.mcsrvstat.us/3/deez.erobb.gay');
                 playerData = await response.json();
                 const playerCount = playerData.players ? playerData.players.online : 'N/A';
                 document.getElementById('player-count').textContent = playerCount;
