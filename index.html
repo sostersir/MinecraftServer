@@ -274,7 +274,7 @@
 
         async function fetchPlayerData() {
             try {
-                const response = await fetch('https://api.mcsrvstat.us/3/deez.erobb.gay');
+                const response = await fetch('https://api.mcsrvstat.us/3/deez.erobbminecraft.com');
                 playerData = await response.json();
                 const playerCount = playerData.players ? playerData.players.online : 'N/A';
                 document.getElementById('player-count').textContent = playerCount;
